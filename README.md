@@ -1,1 +1,2 @@
-# fewd-traffic-light-jquery
+# Homework Assignment #7
+## fewd-traffic-light-jquery
