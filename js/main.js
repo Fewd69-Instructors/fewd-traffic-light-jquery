@@ -11,17 +11,17 @@ function illuminateRed() {
 
 function illuminateYellow() {
   clearLights();
-  document.getElementById('slowLight').style.backgroundColor = "yellow";
+  $('#slowLight').css('backgroundColor', 'yellow');
 }
 
 function illuminateGreen() {
   clearLights()
-  document.getElementById('goLight').style.backgroundColor = "green";
+  $('#goLight').css('backgroundColor', 'green');
 }
 
 function clearLights() {
   $('#stopLight').css('backgroundColor', 'black');
-  $('#slowLight').style('backgroundColor', 'black');
-  $('#goLight').style('backgroundColor', 'black');
+  $('#slowLight').css('backgroundColor', 'black');
+  $('#goLight').css('backgroundColor', 'black');
 }
 })
