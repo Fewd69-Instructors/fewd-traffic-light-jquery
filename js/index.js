@@ -1,8 +1,8 @@
+$(function() {
+
 function clearAll() {
   $('#stopLight, #slowLight, #goLight').removeClass().addClass('bulb');
 }
-
-$(function() {
 
   $('#stopButton').click(function() {
     clearAll();
