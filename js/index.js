@@ -1,5 +1,5 @@
 //Implement the red light using jQuery. Don't forget to add the script tags.
-  $(document).ready(function(){
+ $(document).ready(function() {
 
 
   $('#stopButton').click(illuminateRed);
@@ -8,20 +8,22 @@
 
   function illuminateRed() {
   	clearLights();
-  	$('stopLight').attr('class', 'red');
+  	$('#stopLight').css("backgroundColor", "red");
   }
 
     function illuminateYellow() {
-  	$('slowLight').attr('class', 'yellow');
+    clearLights();
+  	$('slowLight').css("backgroundColor", "yellow");
   }
 
     function illuminateGreen() {
-  	$('goLight').attr('class', 'green');
+      clearLights();
+  	$('goLight').css("backgroundColor", "green");
   }
 
   function clearLights() {
-    $('stopLight').attr('class', 'black');
-    $('slowLight').attr('class', 'black');
-    $('goLight').attr('class', 'black');
+    $('stopLight').css('backgroundColor', 'black');
+    $('slowLight').css('backgroundColor', 'black');
+    $('goLight').css('backgroundColor', 'black');
 
 });
