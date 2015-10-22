@@ -12,18 +12,19 @@
   }
 
     function illuminateYellow() {
-    clearLights();
-  	$('slowLight').css("backgroundColor", "yellow");
-  }
+      clearLights();
+    	$('#slowLight').css("backgroundColor", "yellow");
+     }
 
     function illuminateGreen() {
       clearLights();
-  	$('goLight').css("backgroundColor", "green");
-  }
+  	  $('#goLight').css("backgroundColor", "green");
+    }
 
   function clearLights() {
-    $('stopLight').css('backgroundColor', 'black');
-    $('slowLight').css('backgroundColor', 'black');
-    $('goLight').css('backgroundColor', 'black');
-
+    $('#stopLight').css('backgroundColor', 'black');
+    $('#slowLight').css('backgroundColor', 'black');
+    $('#goLight').css('backgroundColor', 'black');
+  }   
+  
 });
