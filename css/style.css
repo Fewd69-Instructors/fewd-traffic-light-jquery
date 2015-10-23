@@ -35,3 +35,19 @@ body {
   margin: 25px auto;
   transition: background 500ms;
 }
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: orange;
+}
+
+.green {
+  background-color: green;
+}
+
+.black {
+  background-color: black;
+}
